@@ -1,0 +1,40 @@
+table td {
+  border: 1px solid #dee2e6;
+  vertical-align: top;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+table td:first-child, table td:last-child {
+  width: 50%;
+}
+td {
+  word-break: keep-all;
+  white-space: normal;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+.custom-table-wrapper {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.selected {
+  background-color: #99ccff !important;
+}
+.correct {
+  background-color: #7ecb7e !important;
+}
+.wrong {
+  background-color: #f5a4a4 !important;
+}
+.modal-body ul { 
+	padding-left: 1.2em; 
+}
